@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "scheme": "08-biblioteca",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "name": "08-biblioteca",
+    "slug": "08-biblioteca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "hnr_domingues.biblioteca"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c839b553-cc0e-4f62-a66b-8d4ced502da0"
+      }
+    }
+  }
+}
